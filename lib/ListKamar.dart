@@ -153,7 +153,7 @@ class _BookingState extends State<Booking> {
   bool orderAccepted = false;
 
   Future<void> submitBooking() async {
-    final url = 'http://192.168.43.199/api_produk/hotel/create.php';
+    final url = 'http://192.168.1.106/api_produk/hotel/create.php';
 
     final response = await http.post(
       Uri.parse(url),

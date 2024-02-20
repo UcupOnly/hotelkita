@@ -17,7 +17,7 @@ class _BookingPageListState extends State<BookingPageList> {
   }
 
   Future<void> fetchData() async {
-    final url = 'http://192.168.43.199/api_produk/hotel/read.php';
+    final url = 'http://192.168.1.106/api_produk/hotel/read.php';
 
     final response = await http.get(Uri.parse(url));
 
